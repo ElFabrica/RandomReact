@@ -6,11 +6,11 @@ function App(){
   
   return(
     
-    <View style= {{backgroundColor: "#333333", flex: 1}}>
+    <View style= {{ flex: 1, flexDirection: "row", alignItems: "center",  justifyContent:"center"}}>
 
-      <View style= {{height: 65, backgroundColor: "#333333"}}></View>
-      <View style= {{flex:1, backgroundColor: "#FFFFFF"}}> </View>
-      <View style= {{height: 65, backgroundColor: "#333333"}}></View>
+      <View style= {{height: 50,width: 50, backgroundColor: "black"}}></View>
+      <View style= {{height: 50,width: 50,backgroundColor: "green"}}> </View>
+      <View style= {{height: 50,width: 50, backgroundColor: "red"}}></View>
       
   
 
